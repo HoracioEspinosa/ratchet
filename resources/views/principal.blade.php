@@ -74,7 +74,7 @@
                         <small>Listado de usuarios en espera (Seleccione un usuario para iniciar su recorrido)</small>
                     </div>
                     <div>
-                        <table class="table m-b-none" ui-jp="footable" data-filter="#filter" data-page-size="5">
+                        <table class="table m-b-none principaltable" ui-jp="footable" data-filter="#filter" data-page-size="5">
                             <thead>
                             <tr>
                                 <th>N°</th>
@@ -298,6 +298,7 @@
 <!-- ajax -->
 <script src="libs/jquery/jquery-pjax/jquery.pjax.js"></script>
 <script src="scripts/ajax.js"></script>
+<script src="scripts/server.js"></script>
 <!-- endbuild -->
 </body>
 </html>

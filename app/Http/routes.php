@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('principal');
 });
+Route::get('/cliente', function () {
+    return view('cliente');
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
