@@ -27,19 +27,7 @@
     <link rel="stylesheet" href="assets/styles/app.css" type="text/css" />
     <!-- endbuild -->
     <link rel="stylesheet" href="assets/styles/font.css" type="text/css" />
-    <style type="text/css">
-        .footable > thead > tr > th{
-            font-size: 0.8em;
-            padding: 0px;
-            text-align: center;
-        }
-        .footable > thead > tr > th:first-child{
-            padding-left: 5px;
-        }
-        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th{
-            font-size: 0.8em;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/styles/stylecid.css" type="text/css">
 </head>
 <body>
 <div class="app" id="app">

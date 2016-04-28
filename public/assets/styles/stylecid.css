@@ -1,0 +1,21 @@
+.footable > thead > tr > th{
+    font-size: 0.8em;
+    padding: 0px;
+    text-align: center;
+}
+.footable > thead > tr > th:first-child{
+    padding-left: 5px;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th{
+    font-size: 0.8em;
+}
+.table > tbody > tr{ cursor: pointer; }
+.table tr:hover{
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    background: #F5CD43 !important;
+}
