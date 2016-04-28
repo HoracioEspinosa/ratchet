@@ -3,11 +3,10 @@ conn.onopen = function(e){
     console.log('Connection established');
 }
 conn.onmessage = function(e){
-    $(".contenido").html($(".contenido").html() + e.data+"</br>");
+    $(".contenido").append(e.data+"</br>");
 }
 $(".principaltable tbody tr").on('click', function(){
     var data = $(this).children("td:nth-child(4)").html();
-    conn.send(data);
-    console.log(data);
     $(this).css('border','2px solid red !important');
+    conn.send(data);
 });
